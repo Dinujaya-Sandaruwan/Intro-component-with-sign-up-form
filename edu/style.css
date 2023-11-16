@@ -1,0 +1,25 @@
+.element {
+  width: 100px;
+  height: 100px;
+}
+
+.div01 {
+  background-color: lightcoral;
+}
+
+.div02 {
+  background-color: black;
+}
+
+.div03 {
+  background-color: lightgreen;
+}
+
+main {
+  background-color: lightblue;
+  width: 800px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: row;
+}
