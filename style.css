@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fe7978;
+}
+
+main {
+  background-color: aqua;
+  width: 800px;
+  height: 500px;
+
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  width: 50%;
+  height: 100%;
+}
+.left-side {
+  background-color: green;
+}
+.right-side {
+  background-color: purple;
+}
